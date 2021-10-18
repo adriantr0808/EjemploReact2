@@ -11,7 +11,7 @@ function Metodos() {
 
   return (
     <div>
-      <h1 style={{margin: '1em'}}> Ejemplo 1 Sumar numeros e imagen </h1>{" "}
+      <h1 style={{margin: '1em'}}> Ejemplo 1 Sumar numeros e imagen </h1>
       <button
         style={{
           padding: "2px",
