@@ -1,6 +1,6 @@
-import Img from '../../assets/2.jpg'
+import Img from '../../assets/2.jpg' //Importamos la imagen 
 function Metodos() {
-  const sumarNumeros = () => {
+  const sumarNumeros = () => { //Metodo en el que voy a sumar dos numeros
     var numero1 = 5;
     var numero2 = 4;
 
@@ -19,8 +19,8 @@ function Metodos() {
         }}
         onClick={() => sumarNumeros()}
       >
-        Pulsar para sumar{" "}
-      </button>{" "}
+        Pulsar para sumar
+      </button>
       <div>
         <h3 style={{margin: '1em'}}>Imagen</h3>
         <img src={Img} alt={'imagenPrueba'} style={{width: '500px', height: '350px', margin: '1em'}}></img>
